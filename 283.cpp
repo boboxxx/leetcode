@@ -16,3 +16,13 @@ public:
         }
     }
 };
+int main(){
+    Solution s;
+    vector<int> nums = {0,1,0,3,12};
+    s.moveZeroes(nums);
+    for(auto i : nums) {
+        cout << i << " ";
+    }
+    cout << endl;
+    return 0;
+}
